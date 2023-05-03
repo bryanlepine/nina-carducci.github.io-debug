@@ -116,7 +116,7 @@ body {
 }
 
 .nav-pills .nav-link:hover {
-	color: orange;
+	color: red;
 	cursor: pointer;
 }
 .item-column {
