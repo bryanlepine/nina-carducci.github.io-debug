@@ -104,9 +104,20 @@ body {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
+	cursor: pointer;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
+}
+.nav-link.active-tag {
+	background-color: cadetblue;
+	color: white;
+}
+
+.nav-pills .nav-link:hover {
+	color: orange;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
