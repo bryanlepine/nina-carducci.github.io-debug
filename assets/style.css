@@ -102,7 +102,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: cadetblue;
+	background-color: blue;
 	border-radius:0.25rem ;
 	cursor: pointer;
 }
@@ -111,7 +111,7 @@ body {
 	cursor: pointer;
 }
 .nav-link.active-tag {
-	background-color: cadetblue;
+	background-color: blue;
 	color: white;
 }
 
