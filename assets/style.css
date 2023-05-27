@@ -252,6 +252,11 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+footer{
+	display: flex;
+	gap: 20px;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
