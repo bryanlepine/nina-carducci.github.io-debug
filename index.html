@@ -13,7 +13,28 @@
 	<meta property="og:description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.">
 	<meta property="og:image" content="https://github.com/bryanlepine/nina-carducci.github.io-debug/blob/master/assets/images/camera.webp">
 	<meta property="og:url" content="https://bryanlepine.github.io/nina-carducci.github.io-debug/">
-
+	<!--balises structurés-->
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "Photographer",
+		  "name": "Nina Carducci",
+		  "url": "https://bryanlepine.github.io/nina-carducci.github.io-debug/",
+		  "description": "Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.",
+		  "image": "https://github.com/bryanlepine/nina-carducci.github.io-debug/blob/master/assets/images/camera.webp",
+		  "telephone": "+33-05-56-67-78-89",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "France"
+		  },
+		  "openingHours": "Mo-Fr 10:00-19:00"
+		}
+		</script>
+		
+	</script>
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com" defer>
@@ -175,9 +196,8 @@
 </div>
 <footer>
 	<!--schema.org balises structurées-->
-	<a href="tel:+330556677889" itemprop="telephone">+33-05-56-67-78-89</a>
+	<span itemprop="telephone">+33-05-56-67-78-89</span>
 	<div itemprop="openingHours">Lundi-Vendredi 10:00-19:00</div>
-
 	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 		<span itemprop="streetAddress"> 68 avenue Alsace-Lorraine</span>,
 		<span itemprop="postalCode">33200</span>
@@ -185,6 +205,8 @@
 	  </div>
 </footer>
 </body>
+
+	
 	
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
